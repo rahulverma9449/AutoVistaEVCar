@@ -1,0 +1,38 @@
+.dashboard-page {
+  min-height: 100vh;
+  padding: 20px;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #cfdef3);
+  color: #1f2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.btn.logout {
+  padding: 8px 16px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn.logout:hover {
+  background: #dc2626;
+}
+
+.user-info {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 20px;
+}
