@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+authlib
+python-jose[cryptography]
+motor
+pydantic
+python3-saml
+httpx

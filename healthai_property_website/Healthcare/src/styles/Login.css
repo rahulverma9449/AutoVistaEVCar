@@ -1,0 +1,111 @@
+/* Page background */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e1e2f, #2b2b4a);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Glassmorphic card */
+.login-card {
+  max-width: 28rem;
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Headings */
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.login-subtitle {
+  font-size: 0.95rem;
+  color: #a5b4fc; /* soft indigo */
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+/* SSO Button */
+.sso-button {
+  background: linear-gradient(90deg, #6366f1, #ec4899);
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+}
+
+.sso-button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 25px rgba(236, 72, 153, 0.5);
+}
+
+/* Divider */
+.login-divider {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #c7d2fe;
+  margin: 1rem 0;
+}
+
+/* Email Button */
+.email-button {
+  background: rgba(255, 255, 255, 0.15);
+  color: #e0e7ff;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.email-button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.25);
+  transform: scale(1.03);
+}
+
+/* Footer text */
+.login-footer {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  text-align: center;
+  color: #a5b4fc;
+}
+
+/* Optional subtle animation for card appearance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-card {
+  animation: fadeInUp 0.6s ease forwards;
+}

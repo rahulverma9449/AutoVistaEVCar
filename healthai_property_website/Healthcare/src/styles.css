@@ -1,0 +1,43 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; color:#222; }
+.site-header { background:#0b5; padding:16px; color:#fff; }
+.site-header nav a { color:#fff; margin-right:8px; text-decoration:none; }
+.site-main { padding:20px; }
+.property-card { border:1px solid #ddd; padding:12px; margin-bottom:10px; border-radius:6px; }
+/* App container with radial gradient background */
+.app-container {
+  min-height: 100vh;
+  background: radial-gradient(ellipse at top, #1e1b4b, #2e2a65, #000000);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content wrapper */
+.main-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  flex: 1;
+}
+
+/* Footer */
+.app-footer {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #a5b4fc;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Optional: smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Link reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
